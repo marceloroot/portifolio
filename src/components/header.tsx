@@ -20,10 +20,28 @@ import {
     CommandSeparator,
 
   } from "@/components/ui/command"
+import { useEffect, useState } from "react";
 
 function Header() {
+    const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
     return ( 
-        <header className="fixed top-0 flex items-center justify-between w-full p-4 bg-background border-b border-blue-500/40">
+        <header id="header" className={`fixed top-0 flex items-center justify-between w-full p-4 bg-background  shadow-md shadow-blue-500/20 ${isScrolled ? 'opacity-80' : ''}`}>
 
           <div className="flex items-center ">
             <Sheet >
@@ -35,15 +53,14 @@ function Header() {
                 <CommandList>
                     <CommandEmpty>Nehum resultado.</CommandEmpty>
                     <CommandGroup heading="Pessoal">
-                    <CommandItem>Home</CommandItem>
-                    <CommandItem>Sobre Mim</CommandItem>
-                    <CommandItem>My Tech Stack</CommandItem>
-                    </CommandGroup>
+                    <a href="#home"><CommandItem>Home</CommandItem></a>
+                    <a href="#techstack"><CommandItem>Habilidades</CommandItem></a>
+                   </CommandGroup>
                     <CommandSeparator />
-                    <CommandGroup heading="Habilidades">
-                    <CommandItem>Projetos</CommandItem>
-                    <CommandItem>Empresas</CommandItem>
-                    <CommandItem>Contato</CommandItem>
+                    <CommandGroup heading="Experiência">
+                    <a href="#project"><CommandItem>Projetos</CommandItem></a> 
+                    <a href="#company"><CommandItem>Empresas</CommandItem></a> 
+                    <a href="#footer"><CommandItem>Contato</CommandItem></a> 
                     </CommandGroup>
                 </CommandList>
                 </Command>
@@ -65,8 +82,8 @@ function Header() {
 
             <div>
               <div className="flex items-center gap-2 me-3 md:gap-5 ms-2 ">
-              <Github />
-              <Linkedin />
+              <a href="https://github.com/marceloroot" target="_blank"><Github /></a>
+              <a href="https://www.linkedin.com/in/marcelo-lima-gomes" target="_blank"><Linkedin /></a>
               </div>
             </div>
           

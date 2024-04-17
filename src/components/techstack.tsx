@@ -1,8 +1,10 @@
+"use client"
 function TechSteck() {
+    
     return (  
-      <div className="flex flex-col items-center justify-between mt-24 flex-wrap ">
-        <h1 className="text-2xl md:text-4xl text-white/70 font-build uppercase text-center">My Tech Stack</h1>
-        <h2 className="text-lg md:text-xl text-white/40 font-build  text-center">Tecnologias que trabalhei recentemente</h2>
+      <div id="techstack" className="flex flex-col items-center justify-between mt-24 flex-wrap ">
+        <h1 className="text-2xl text-white/70 font-build uppercase text-center">My Tech Stack</h1>
+        <h2 className="text-lg md:text-xl text-white/40 font-build  text-center">Tecnologias com as quais trabalhei recentemente</h2>
         <div className="flex gap-0 p-0 mt-6 md:mt-8  w-full items-center justify-center md:gap-8">
         <img
                 src="/logohtml.svg"
