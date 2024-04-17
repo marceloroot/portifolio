@@ -8,14 +8,14 @@ function TechSteck() {
         <div className="flex gap-0 p-0 mt-6 md:mt-8  w-full items-center justify-center md:gap-8">
         <img
                 src="/logohtml.svg"
-                alt="Vercel Logo"
+                alt="HTML Logo"
                 className="h-9 w-16 md:w-28 md:h-20 "
                
             />
 
             <img
                 src="/logocss.svg"
-                alt="Vercel Logo"
+                alt="CSS Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
             
             />
@@ -23,25 +23,26 @@ function TechSteck() {
 
             <img
                 src="/logojavascript.svg"
-                alt="Vercel Logo"
+                alt="JAVASCRIPT Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
+
             <img
                 src="/logos_react.svg"
-                alt="Vercel Logo"
+                alt="React Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
             <img
                 src="/Vector.svg"
-                alt="Vercel Logo"
+                alt="Reduz Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
             <img
                 src="/logos_bootstrap.svg"
-                alt="Vercel Logo"
+                alt="Botstrap Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
@@ -54,14 +55,14 @@ function TechSteck() {
          <div className="flex gap-0 p-0 mt-6 md:mt-8 w-full items-center justify-center md:gap-8">
            <img
                 src="/logo_tailwind.svg"
-                alt="Vercel Logo"
+                alt="Tailwind Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                
             />
 
             <img
                 src="/logos_sass.svg"
-                alt="Vercel Logo"
+                alt="SASS Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
             
             />
@@ -69,25 +70,25 @@ function TechSteck() {
 
             <img
                 src="/logos_git-icon.svg"
-                alt="Vercel Logo"
+                alt="Git Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
             <img
                 src="/nextjs_logo.svg"
-                alt="Vercel Logo"
+                alt="Next Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
             <img
                 src="/logo_vscode.svg"
-                alt="Vercel Logo"
+                alt="Vscode Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
             <img
                 src="/logo_github.svg"
-                alt="Vercel Logo"
+                alt="Githgu Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
@@ -98,40 +99,74 @@ function TechSteck() {
          <div className="flex gap-0 p-0 mt-6 md:mt-8 w-full items-center justify-center md:gap-8">
          <img
                 src="/logo_laravel.svg"
-                alt="Vercel Logo"
+                alt="Laravel Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
            <img
                 src="/logonode.svg"
-                alt="Vercel Logo"
+                alt="Node Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
               <img
                 src="/nestjs.svg"
-                alt="Vercel Logo"
+                alt="Nest Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
             <img
-                src="/Aula.svg"
-                alt="Vercel Logo"
+                src="/aula.svg"
+                alt="Docker Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
             />
                 <img
                 src="/kafka.svg"
-                alt="Vercel Logo"
+                alt="kafka Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                          
                />
                 <img
                 src="/csharp.svg"
-                alt="Vercel Logo"
+                alt="Csharp Logo"
                 className="h-9 w-16 md:w-28 md:h-20"
                         
                />
+         </div>
+
+         <div className="flex gap-0 p-0 mt-6 md:mt-8 w-full items-center justify-center md:gap-8">
+       
+            <img
+                src="/typescript.svg"
+                alt="Typescript Logo"
+                className="h-9 w-16 md:w-28 md:h-20"
+                        
+             />
+              <img
+                src="/mysql.svg"
+                alt="Mysql Logo"
+                className="h-9 w-16 md:w-28 md:h-20"
+                        
+             />
+              <img
+                src="/php.svg"
+                alt="PHP Logo"
+                className="h-9 w-16 md:w-28 md:h-20"
+                        
+             />
+                <img
+                src="/mongo.svg"
+                alt="Mongodb Logo"
+                className="h-9 w-16 md:w-28 md:h-20 "
+                        
+             />
+              <img
+                src="/postgree.svg"
+                alt="Postgre Logo"
+                className="h-9 w-16 md:w-28 md:h-20"
+                        
+             />
          </div>
 
          
