@@ -130,16 +130,6 @@ const projectsTwo = [
          
        </div>
 
-        <div className="flex flex-col md:flex-row gap-9 p-0 mt-8 ">
-        
-
-
-       
-       
-
-           
-          
-        </div>
 
         
 
